@@ -1,0 +1,47 @@
+header {
+    text-align: center;
+    color: blue;
+    margin-bottom: 40px;
+}
+ul{
+    list-style-position: inside;
+}
+
+#crystal-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+img {
+    float: left;
+    height: 200px;
+    width: 250px;
+}
+
+#goal-display{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    
+}
+#score-display{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    
+    
+   
+}
+
+#displays {
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+      
+}
+
+
+
