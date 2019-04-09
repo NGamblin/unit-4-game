@@ -1,59 +1,14 @@
-header {
-    text-align: center;
-    color: blue;
-    margin-bottom: 40px;
-}
-ul{
-    list-style-position: inside;
-}
-
-#crystal-container{
-    width: 1000px;
-    margin: 0 auto;
-}
-
 img {
     float: left;
     height: 200px;
     width: 250px;
 }
 
-#goal-display{
-    background-color: blue;
-    /* height: 150px;
-    width: 150px; */
-    display: inline-block;
-    text-align: center;
-    margin: auto;
-    
+.bootstrapOverride .jumbotron {
+    background-image: url("../assets/crystalBackground.JPG");
 }
-#score-display{
-    background-color: red;
-    height: 150px;
-    width: 150px;
-    display: inline-block;
-    text-align: center;     
+.bootstrapOverride li {
+    font-weight: 350;
 }
-#wins-display{
-    background-color: yellow;
-    height: 150px;
-    width: 150px;
-    display: inline-block;
-    text-align: center;     
-}
-#losses-display{
-    background-color: green;
-    height: 150px;
-    width: 150px;
-    display: inline-block;
-    text-align: center;     
-}
-#displays {
-    width: 1000px;
-    margin: 0 auto;
-    justify-content: center;
-      
-}
-
 
 

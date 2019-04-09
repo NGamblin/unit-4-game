@@ -12,7 +12,7 @@
 </head>
 <body class="bootstrapOverride">
     <div class="container">
-            <div class="jumbotron">
+            <div class="jumbotron text-center">
                     <h1 class="display-4">Crystal Collector: The Game</h1>
                     <ul class="lead">
                             <li>You will be given a number goal at the start of the game</li>
@@ -20,19 +20,7 @@
                             <li>The game is won by matching your total score the goal without going over. Going over loses the game.</li>        
                         </ul>
                   </div>
-        <!-- <div class="row">
-            <div class= "col-sm">
-                <header>
-                    <h1>Crystal Collector: The Game</h1>
-                        <ul>
-                            <li>You will be given a number goal at the start of the game</li>
-                            <li>By clicking the four crystals below, you'll add the value of the selected crystal to your score.</li>
-                            <li>The game is won by matching your total score the goal without going over. Going over loses the game.</li>        
-                        </ul>
-                </header> 
-            </div>
-        </div>
-        </header> -->
+
         <div class="row">
                 <div class="col-sm-3">
                   <div class="card text-center">
@@ -69,32 +57,22 @@
                           </div>
                         </div>
                     </div>
-        <!-- <div class="row">
-            <div class="col-sm-3">
-                <div id="goal-display"></div>
-            </div>
-            <div class="col-sm-3">
-                <div id="score-display"></div>
-            </div>
-            <div class="col-sm-3">
-                <div id="Wins-display"></div>
-            </div>
-            <div class="col-sm-3">
-                <div id="Losses-display"></div>
-            </div>
-        </div> -->
-            
+             
+        <div class="row" id="crystal-images">
+                <div class ="col-sm-3">
+                  <img id="crystal1"src="assets\Crystal1.jpg" alt="">
+                </div>
+                <div class ="col-sm-3">
+                    <img id="crystal2"src="assets\Crystal2.jpg" alt="">
+                </div>
+                <div class ="col-sm-3">
+                    <img id="crystal3"src="assets\Crystal3.jpg" alt="">
+                </div>
+                <div class ="col-sm-3">
+                    <img id="crystal4" src="assets\Crystal4.jpg" alt="">
+                  </div>
         </div>
-        <section id="crystal-container">
-            <div>
-            <div id="crystal-images">
-                <img id="crystal1"src="assets\Crystal1.jpg" alt="">
-                <img id="crystal2"src="assets\Crystal2.jpg" alt="">
-                <img id="crystal3"src="assets\Crystal3.jpg" alt="">
-                <img id="crystal4"id="crystal4" src="assets\Crystal4.jpg" alt="">
-            </div>
-        </section>
-    </div>
+      
     <script type="text/javascript" src="assets/game.js"></script>
 </body>
 </html>

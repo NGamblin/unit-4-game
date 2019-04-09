@@ -12,17 +12,17 @@ function start() {
     var min=19;
     var max=120;
     goalNumb = Math.floor(Math.random() * (+max - +min) + +min);
-    crystal1Val = Math.floor(Math.random() * 13) +1;
-    crystal2Val = Math.floor(Math.random() * 13) +1;
-    crystal3Val = Math.floor(Math.random() * 13) +1;
-    crystal4Val = Math.floor(Math.random() * 13) +1;
+    crystal1Val = Math.floor(Math.random() * 12) +1;
+    crystal2Val = Math.floor(Math.random() * 12) +1;
+    crystal3Val = Math.floor(Math.random() * 12) +1;
+    crystal4Val = Math.floor(Math.random() * 12) +1;
     $("#displayGoal").text(goalNumb);
     $("#displayScore").text(scoreNumb);
     $("#displayWins").text(wins);
     $("#displayLosses").text(losses);
-    console.log(goalNumb);
-    console.log(crystal1Val);
-    console.log(crystal1Val, crystal2Val, crystal3Val, crystal4Val)
+    // console.log(goalNumb);
+    // console.log(crystal1Val);
+    // console.log(crystal1Val, crystal2Val, crystal3Val, crystal4Val)
 }
 
 function reset() {
@@ -38,8 +38,8 @@ function reset() {
   $("#displayScore").text(scoreNumb);
   $("#displayWins").text(wins);
   $("#displayLosses").text(losses);
-  console.log(goalNumb);
-  console.log(crystal1Val);
+  // console.log(goalNumb);
+  // console.log(crystal1Val);
 }
 
 function evalWin() {
@@ -61,33 +61,33 @@ function evalWin() {
 
 $("#crystal1").on("click", function() {
     
-    console.log("clicked1");
+    // console.log("clicked1");
     scoreNumb = scoreNumb + crystal1Val;
-    console.log(crystal1Val)
+    // console.log(crystal1Val)
     $("#displayScore").text(scoreNumb);
     evalWin();
 
   });
 
   $("#crystal2").on("click", function() {
-    console.log("clicked2");
+    // console.log("clicked2");
     scoreNumb = scoreNumb + crystal2Val;
-    console.log(crystal2Val)
+    // console.log(crystal2Val)
     $("#displayScore").text(scoreNumb)
     evalWin();
   });
 
   $("#crystal3").on("click", function() {
-    console.log("clicked3");
+    // console.log("clicked3");
     scoreNumb = scoreNumb + crystal3Val;
-    console.log(crystal3Val)
+    // console.log(crystal3Val)
     $("#displayScore").text(scoreNumb)
     evalWin();
   });
 
   $("#crystal4").on("click", function() {
-    console.log("clicked4");
-    console.log(crystal4Val)
+    // console.log("clicked4");
+    // console.log(crystal4Val)
     scoreNumb = scoreNumb + crystal4Val;
     $("#displayScore").text(scoreNumb)
     
