@@ -20,22 +20,34 @@ img {
 
 #goal-display{
     background-color: blue;
-    height: 200px;
-    width: 200px;
+    /* height: 150px;
+    width: 150px; */
     display: inline-block;
     text-align: center;
+    margin: auto;
     
 }
 #score-display{
     background-color: red;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     display: inline-block;
-    
-    
-   
+    text-align: center;     
 }
-
+#wins-display{
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;     
+}
+#losses-display{
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;     
+}
 #displays {
     width: 1000px;
     margin: 0 auto;
