@@ -8,6 +8,8 @@ var wins = 0;
 var losses = 0;
 
 
+//============Core
+
 function start() {
     var min=19;
     var max=120;
@@ -56,12 +58,12 @@ function evalWin() {
 }
 
 
-//=============================================================================
+//==============On Click events for Cystal images
 
 
 $("#crystal1").on("click", function() {
-    
-    // console.log("clicked1");
+  $("#crystal1").animate({height: "210px", width: "260px"}).animate({height: "200px", width: "250px"});
+  // console.log("clicked1");
     scoreNumb = scoreNumb + crystal1Val;
     // console.log(crystal1Val)
     $("#displayScore").text(scoreNumb);
@@ -70,6 +72,7 @@ $("#crystal1").on("click", function() {
   });
 
   $("#crystal2").on("click", function() {
+    $("#crystal2").animate({height: "210px", width: "260px"}).animate({height: "200px", width: "250px"});
     // console.log("clicked2");
     scoreNumb = scoreNumb + crystal2Val;
     // console.log(crystal2Val)
@@ -78,6 +81,7 @@ $("#crystal1").on("click", function() {
   });
 
   $("#crystal3").on("click", function() {
+    $("#crystal3").animate({height: "210px", width: "260px"}).animate({height: "200px", width: "250px"});
     // console.log("clicked3");
     scoreNumb = scoreNumb + crystal3Val;
     // console.log(crystal3Val)
@@ -86,13 +90,15 @@ $("#crystal1").on("click", function() {
   });
 
   $("#crystal4").on("click", function() {
+    $("#crystal4").animate({height: "210px", width: "260px"}).animate({height: "200px", width: "250px"});
     // console.log("clicked4");
     // console.log(crystal4Val)
     scoreNumb = scoreNumb + crystal4Val;
     $("#displayScore").text(scoreNumb)
     
   });
-//======================================================================
+
+//======== On window load
 
 
   start();
